@@ -16,44 +16,44 @@
       "sha256": "8374b04edc93e0c3cd2ebe957854651939a200048082d08d619dfb7bffd64984"
     },
     {
-      "bytes": 3309,
+      "bytes": 3227,
       "path": "docs/learning/01_ubl_and_pint_ae.md",
-      "sha256": "7b3f1987ae192c337bf7af8274122ccfb60fe014df34b0cef5060c7b9015d196"
+      "sha256": "2153ddd24d0972d8db763c348f4480c46091472aeb87a7c77d3cd6b70e6e0775"
     },
     {
-      "bytes": 3219,
+      "bytes": 3128,
       "path": "docs/learning/04_lxml_and_xpath.md",
-      "sha256": "83ad4f32ddcdf8e72f373b355177e46a581069e5e4d308c65049e9bc67a13bf0"
+      "sha256": "471f0c4a143e83c54fa0552355b8e4b7969fbf87788ee1d1f97e0232d31e8d11"
     },
     {
-      "bytes": 3445,
+      "bytes": 3356,
       "path": "docs/learning/05_field_maps_and_spec_traceability.md",
-      "sha256": "eeabbc056d1c30e2e5555b36a3d0574b0286ef85ac70d0489ede92d5171da018"
+      "sha256": "a3f376adb13989c5b3773ecf5043a582086f43515a59c10a1be96df16258b111"
     },
     {
-      "bytes": 3343,
+      "bytes": 3237,
       "path": "docs/learning/07_cli_design_for_compliance_tools.md",
-      "sha256": "258f4a12a03197e1db7bed8796ecec0ed237cbc4e7d85c4f8c215146b9a6e121"
+      "sha256": "c7d61220199f90fe94cd03f22e8f47684b61b8126b0affe4cb44831452648689"
     },
     {
-      "bytes": 2858,
+      "bytes": 2778,
       "path": "docs/learning/08_educational_notebooks.md",
-      "sha256": "bbdbcca06501906f95683a264e530d5c9ac6bfe3597ea7e0dd3386bff1aa3baa"
+      "sha256": "7b75bcd0bf1f50b5fe487560470455edddfdc9e5659bffb93e9788312f393ccc"
     },
     {
-      "bytes": 3122,
+      "bytes": 3040,
       "path": "docs/learning/13_publishing_python_wheels.md",
-      "sha256": "965cab66ad206627a6b5ed82fe408b8500aa850efdcf69f020d513891d14fb4d"
+      "sha256": "91639866b9021571c286e1cd7c311680cf83f0c184b82a2134ad83140f8674ad"
     },
     {
-      "bytes": 4302,
+      "bytes": 4194,
       "path": "docs/learning/17_bilingual_pdf.md",
-      "sha256": "a991290b3e467375800dc17fa69713f619b0eeec65e050012c7a5d66745962f2"
+      "sha256": "6e32e9a849048d17d82accc27faaffebf4aa291c7ee8da962a5aebb036efb719"
     },
     {
-      "bytes": 3587,
+      "bytes": 3497,
       "path": "docs/learning/22_schematron_pipeline.md",
-      "sha256": "7e4323975a401c6cc6a1d7f0d91df2d8a19f3d4c064d2efe13769b89c3836bba"
+      "sha256": "0450bc37d80fd8cb3c78bdbe7d2b8a16fd1ec97cf041a98cdf23fe1054bf8332"
     },
     {
       "bytes": 4145,
@@ -96,9 +96,9 @@
       "sha256": "824296ead414e85cbdc04422997cd49eaa1ba668e2d91e771a3c7c25c29a0169"
     },
     {
-      "bytes": 2,
+      "bytes": 1,
       "path": "packages/core/src/pint_ae/__init__.py",
-      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     {
       "bytes": 32972,
@@ -161,14 +161,14 @@
       "sha256": "384e8eaabfac826c09a8d2406e6f17013daf4fa7f4d778adee0da919fa6de13e"
     },
     {
-      "bytes": 21808,
+      "bytes": 21193,
       "path": "packages/core/src/pint_ae/rules.py",
-      "sha256": "a010f82c28fd488b07c45ae48a2f2cf58acf3103cd6d30b0a1046d8d7b9d0dfd"
+      "sha256": "240308ecde3e6815515b3dfc6c0c0e0daee63fbbf24996debce8b92324bb572b"
     },
     {
-      "bytes": 38,
+      "bytes": 37,
       "path": "packages/core/src/pint_ae/schematron/__init__.py",
-      "sha256": "ab023b3e42f14ce56ab793a5d08853a1e12519e0e254b795426a7fd46e2a5b9e"
+      "sha256": "a12e1fd392e60178c1c49786a27826a71723c8beec99188accf105c85ed8caf8"
     },
     {
       "bytes": 2860,
@@ -176,14 +176,14 @@
       "sha256": "c9da62b2c0b03349bf7aa18be61adf035da75802e80462bb4f58224724dfca41"
     },
     {
-      "bytes": 90807,
+      "bytes": 89639,
       "path": "packages/core/src/pint_ae/schematron/rules/peppol_bis3.sch",
-      "sha256": "7f2289742e09a27e65a7e9a82f6eb1b114c3f3ab6ed5162955c7aafca08dd6fb"
+      "sha256": "5ddf3a2f6633147b20b7805df9902d825af1a984f10014fcee186d4170364b1d"
     },
     {
-      "bytes": 79552,
+      "bytes": 79158,
       "path": "packages/core/src/pint_ae/schematron/rules/shared_pint.sch",
-      "sha256": "98f2e3f1ef90432f0905d21c9c448cf514422426beafd7d9e910aacdbb144d02"
+      "sha256": "89d5f8453fe39dafabca0e5f3401e95ffce087e649bbe615a7e9f48c2ed466e5"
     },
     {
       "bytes": 11706,
@@ -191,9 +191,9 @@
       "sha256": "d4dfc8d2944c31576343b8a95e4efc521113843ba5f58be638001854c0a3e98e"
     },
     {
-      "bytes": 2389,
+      "bytes": 2342,
       "path": "packages/core/src/pint_ae/schematron/vendor/pint-ae-1.0.4/README.md",
-      "sha256": "637da08d50f215fa522c20843a21ab64323e7fde73e07216f554cbc9319ce485"
+      "sha256": "6ff04e98fa0eb21c680d3fb7cfa1966ea28d586b8942f7a47bbbd8b4a61d14a8"
     },
     {
       "bytes": 2045,
@@ -256,29 +256,29 @@
       "sha256": "e238b45bafe65038b846a9d8173054ab315ae0a709dc65f17b5de9d38303f037"
     },
     {
-      "bytes": 519,
+      "bytes": 506,
       "path": "packages/core/src/pint_ae/schematron/xsl/README.md",
-      "sha256": "956345846c5bf55f68e7ee7e4936a96eb9aff111b7e1a33879f62a4fc82de43d"
+      "sha256": "d9f7dcc5ce865bf9aa6ce478e3af36605085bd48cdd06a826393ee2d49d101ce"
     },
     {
-      "bytes": 12015,
+      "bytes": 11703,
       "path": "packages/core/src/pint_ae/schematron/xsl/iso_abstract_expand.xsl",
-      "sha256": "492519900916845606fd8347bd6f5453a5fcb6630e1f5bdda519b3aaed25e103"
+      "sha256": "c5267f124abf23eeb6669884e40a98607c055bfaa1f39e73b7d578feceeb6e46"
     },
     {
-      "bytes": 55068,
+      "bytes": 53550,
       "path": "packages/core/src/pint_ae/schematron/xsl/iso_dsdl_include.xsl",
-      "sha256": "a35d86063c4815da0666b64e4fbd068ecfbdd67d448ff2fcd2100315671179b6"
+      "sha256": "43ff20a1afd89d8a744d1c0b8df94ac5559ffa6a820d1ffbf508d6431ee4fdd9"
     },
     {
-      "bytes": 100010,
+      "bytes": 97704,
       "path": "packages/core/src/pint_ae/schematron/xsl/iso_schematron_skeleton_for_saxon.xsl",
-      "sha256": "af9c898dd0144f6b0948160f71c9f2bc1a6c2801f84e8b686c324125100f8d1a"
+      "sha256": "95f3195d9f437ea8ff5f75d1a27f4e68ae20b236fe0d4a217bb4209f498a10a3"
     },
     {
-      "bytes": 24702,
+      "bytes": 24010,
       "path": "packages/core/src/pint_ae/schematron/xsl/iso_svrl_for_xslt2.xsl",
-      "sha256": "30ece818189a63f8e51630750a8acbd7d7e8499ae132819b7771b89f80973b4d"
+      "sha256": "0588d617924a0686255f6d182633d434c7986d561be8fcc3b363907d3f671b26"
     },
     {
       "bytes": 2734,
@@ -291,399 +291,399 @@
       "sha256": "6a184bdeb39e1535628e905a82c5e063e6cfbe4dddc8cb1f90d6dd58c42ad0e5"
     },
     {
-      "bytes": 45999,
+      "bytes": 45268,
       "path": "packages/core/src/pint_ae/xsd/common/CCTS_CCT_SchemaModule-2.1.xsd",
-      "sha256": "d5fcf183b62d1e23021f1f62a5b129c9e1ef1fc7c451cf3d2f23e3fe5a8efbfd"
+      "sha256": "dd546e4809df86b6445589f69f0d6c9df162840ae386574ddfc1da7638103e15"
     },
     {
-      "bytes": 2460242,
+      "bytes": 2420444,
       "path": "packages/core/src/pint_ae/xsd/common/UBL-CommonAggregateComponents-2.1.xsd",
-      "sha256": "2fd76c6bead543354c01bc40eab3e8188c25ee96b2a902456522ec6bab8b483e"
+      "sha256": "939172ad8dd057cd403e7f763f6532184dd5ed4b9de24c42ebb35db4792ba613"
     },
     {
-      "bytes": 225283,
+      "bytes": 219895,
       "path": "packages/core/src/pint_ae/xsd/common/UBL-CommonBasicComponents-2.1.xsd",
-      "sha256": "0e71e086fbacb274b385fed385e29d7678ff9af6201f2975c3b51c298f51743a"
+      "sha256": "bd4ad043ee1d9da1c7f8018dabf739cfafdfb59143d0d16b9ef769e6b7c408a7"
     },
     {
-      "bytes": 9713,
+      "bytes": 9491,
       "path": "packages/core/src/pint_ae/xsd/common/UBL-CommonExtensionComponents-2.1.xsd",
-      "sha256": "ad8d68885d9e72d73f2ba50f173a408366a1dcbe59b88aced65df95a8dc2a646"
+      "sha256": "ad7a4e490978adfbcfc5ec0bb20941cf11ac960ccf0c4de8791a7c731a8dbe87"
     },
     {
-      "bytes": 5648,
+      "bytes": 5548,
       "path": "packages/core/src/pint_ae/xsd/common/UBL-CommonSignatureComponents-2.1.xsd",
-      "sha256": "4b1712f409695448e05288209792eef1980a5833fb13157b4b49d36ccc8a37a0"
+      "sha256": "3db472305f029bba5c1ae157bfd0178f715c3f9b94bd8e6c557dbce5e88da874"
     },
     {
-      "bytes": 3236,
+      "bytes": 3173,
       "path": "packages/core/src/pint_ae/xsd/common/UBL-CoreComponentParameters-2.1.xsd",
-      "sha256": "884dfb162e341ba7c67fce002c5f04af6082b4901e53777322463dbb81cf69f4"
+      "sha256": "8be3379dbdcbcc7802fafdd16bac72c48fff1c0bb364213a31a17911dd06100b"
     },
     {
-      "bytes": 4402,
+      "bytes": 4314,
       "path": "packages/core/src/pint_ae/xsd/common/UBL-ExtensionContentDataType-2.1.xsd",
-      "sha256": "b91487d4b9e9a6c2853998873ed510da16897530479b5af0565a3bcfdf5c97d3"
+      "sha256": "fcee77a11870208e6377ea6311b9f2a050bca24bdad8606ea02d71e9f9e72f8d"
     },
     {
-      "bytes": 3659,
+      "bytes": 3590,
       "path": "packages/core/src/pint_ae/xsd/common/UBL-QualifiedDataTypes-2.1.xsd",
-      "sha256": "1a6182be542088f70d0351bbee1186d6b44ef86fac9a580622928ec989e558a9"
+      "sha256": "7dcb156e610239c97ae70940cf4653b88e48c3595bf5f56a2204a32e2893e6cf"
     },
     {
-      "bytes": 7921,
+      "bytes": 7784,
       "path": "packages/core/src/pint_ae/xsd/common/UBL-SignatureAggregateComponents-2.1.xsd",
-      "sha256": "f54c70a5c9f4892d553ad397cbda2affbf861fd56f095c9094e205613a403e83"
+      "sha256": "17bb6b62d709b4fd81449a37655af36aa6a1276ad4fdb1b2e249a5ed4b7c2172"
     },
     {
-      "bytes": 4284,
+      "bytes": 4207,
       "path": "packages/core/src/pint_ae/xsd/common/UBL-SignatureBasicComponents-2.1.xsd",
-      "sha256": "28207e7f2727857318a18ba6890fc158f4ac04eee1697285865111b50e2fad40"
+      "sha256": "cef924d7ba3d1d8ade14469325cde1364f8c174e46f0198ec02da8e9e748a489"
     },
     {
-      "bytes": 27853,
+      "bytes": 27300,
       "path": "packages/core/src/pint_ae/xsd/common/UBL-UnqualifiedDataTypes-2.1.xsd",
-      "sha256": "dd5b4e58a49dad38f1ec72b9e0ac4913dcf51168886bb87e2335fb168736018b"
+      "sha256": "09052d406b4293e2a5f9c2bfee6df10ad4d8d5f0b36e24a6349d7f7936d89eb6"
     },
     {
-      "bytes": 22140,
+      "bytes": 21664,
       "path": "packages/core/src/pint_ae/xsd/common/UBL-XAdESv132-2.1.xsd",
-      "sha256": "6cb9e71bef4d0de3baf5d1fa4268898ece0245d60d0ce22e76af92b7602089a3"
+      "sha256": "a4f726bcf8cc3f7d9ffa4dab99e005535a8e8b60dced1e5d94578d2e05afa96e"
     },
     {
-      "bytes": 1341,
+      "bytes": 1316,
       "path": "packages/core/src/pint_ae/xsd/common/UBL-XAdESv141-2.1.xsd",
-      "sha256": "dbeb8eb9cde28083521551e27044200fdfe20280bb666dd052cf0de294ae14d4"
+      "sha256": "1fa4625e9cefcb7a9abb5ac1b64315547450031eece8a55bd584e4ba4b79dbc1"
     },
     {
-      "bytes": 11080,
+      "bytes": 10750,
       "path": "packages/core/src/pint_ae/xsd/common/UBL-xmldsig-core-schema-2.1.xsd",
-      "sha256": "4da8800539360f2352afaeb7b7bd553c78a437887eaa67e33ee5573dde331094"
+      "sha256": "101909c9f06456d61ddcc4fb982f1d40dc357b439f393b1a2eb46e42acd60809"
     },
     {
-      "bytes": 22026,
+      "bytes": 21665,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ApplicationResponse-2.1.xsd",
-      "sha256": "f2a83c8a799dbfb3decdfb4e6ddd661bb9a7ca123f6c87a711dc77c5bb131941"
+      "sha256": "b9adc27c538c937a54479e678d1e19b0a91bb7ce36ac0b558961173508466125"
     },
     {
-      "bytes": 25216,
+      "bytes": 24801,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-AttachedDocument-2.1.xsd",
-      "sha256": "3af959fef538fc793ba7e03efbe790a34d826cc5a22279453888d6f69e798f7e"
+      "sha256": "1243cefea8ede7e662b7ccef0868672f9f371fec5430bab4b96ff4e9593ee7af"
     },
     {
-      "bytes": 25740,
+      "bytes": 25323,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-AwardedNotification-2.1.xsd",
-      "sha256": "7a1df2e69b06bf75d594b4f0330601204aede8cd0b5766c138311555510d13de"
+      "sha256": "fd2d8f38a71eed0466f341ddc785949ad3b154c888d3bd85f702fff0ddfd7537"
     },
     {
-      "bytes": 35559,
+      "bytes": 35020,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-BillOfLading-2.1.xsd",
-      "sha256": "1c30651619d02d4c9bc9a23c4dc554078e1e7ad12b4956d7a9b20a62090d950f"
+      "sha256": "76a614070988e6739b4d88c1d307dd4266ca93098bfb876112eec669d73e0ac2"
     },
     {
-      "bytes": 31611,
+      "bytes": 31099,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-CallForTenders-2.1.xsd",
-      "sha256": "ffe4d1ef2d6cb54398da2545a341d591ddca904f5d95bef24fdb498c342de521"
+      "sha256": "568c78d1d93c4ee937a9830507cd13339e8f5826e540dcb6a9d831029196088b"
     },
     {
-      "bytes": 34345,
+      "bytes": 33781,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-Catalogue-2.1.xsd",
-      "sha256": "33547c82ecb1c08fe7973f8d20414fe738ac832341bf8d11f62d866abc83d691"
+      "sha256": "c3cb303f8f635023affd5c418abe78d30963239d6b29d8584c842c7e88a001de"
     },
     {
-      "bytes": 28576,
+      "bytes": 28112,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-CatalogueDeletion-2.1.xsd",
-      "sha256": "3e1dd989c7edae4a8e2836102ce15702a42db8e1e4ed7920fec012edc2992314"
+      "sha256": "f1ec9ef92af9e67a9f492e9f10d3fdd5af60c6b830af512db5c4c2e70f3c5a61"
     },
     {
-      "bytes": 34047,
+      "bytes": 33515,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-CatalogueItemSpecificationUpdate-2.1.xsd",
-      "sha256": "156f9cb428312898c6706ce28639a780adf4137e01d2c6422be4025c6d5dfce7"
+      "sha256": "7fce1ceebaf07e60560d13906dee742434c9e7bd4f4bc3c0b776fa5da6c382cd"
     },
     {
-      "bytes": 33177,
+      "bytes": 32646,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-CataloguePricingUpdate-2.1.xsd",
-      "sha256": "686e9293284110c3aaa26d93f7b9328ec356057a5d22c3b6459b18368a7ce948"
+      "sha256": "3b12c351921da6ae933f5a943ffaf6a36bc1b0d21a66dde6c930e26b99538198"
     },
     {
-      "bytes": 35625,
+      "bytes": 35055,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-CatalogueRequest-2.1.xsd",
-      "sha256": "afd4d6ee86a610f9ef05018ff513487ba5fc8adf4303663bb38a6115dd31f4c5"
+      "sha256": "bbf37dbec46b58341afd11083cc6e63df5c4659bf925c33025bab7ac40d864cd"
     },
     {
-      "bytes": 25957,
+      "bytes": 25541,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-CertificateOfOrigin-2.1.xsd",
-      "sha256": "3ed3e1dfadfae25eab133d93886fb281e2a75e0b26048028f9e8ebf28f86b98d"
+      "sha256": "30be1043793b48f140d3c1fcbc998202cf52930b4a27da73e74c1af2a42dd6f1"
     },
     {
-      "bytes": 30592,
+      "bytes": 30100,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ContractAwardNotice-2.1.xsd",
-      "sha256": "512a77961a09a10efae4305f4ff2c0533301891586d2f6e9525a2ac15b9e969e"
+      "sha256": "b6ddc3fae971067cb88508691ddc8f3138c97254c0c5cdf01c71acad24553014"
     },
     {
-      "bytes": 28045,
+      "bytes": 27587,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ContractNotice-2.1.xsd",
-      "sha256": "be21c43595a5a4c6619929f4e2a13685c38e63a591a36f8a1f45b0c04e75ef7e"
+      "sha256": "7e71e3db72b39c6b4a321a886cd0f284cc403e0c3afea14049a46bf8572adc09"
     },
     {
-      "bytes": 58647,
+      "bytes": 57697,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-CreditNote-2.1.xsd",
-      "sha256": "6b1efca5933d07c78e3eeea86a5c8cb08328cfe11762686d397669020bcbc5f9"
+      "sha256": "a54651b1225052f811bf2ba01346f13f2454e7cc3e0be290c91dd680dc7b7b1a"
     },
     {
-      "bytes": 56349,
+      "bytes": 55434,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-DebitNote-2.1.xsd",
-      "sha256": "9d8fccb9926337ae4d0a5f8f4c12a467e72bc43b87933802b4e1c3dd60a0436f"
+      "sha256": "295d142102a2a0cd8b223a79b8314c0fe1b55055478221dd2f0ed7603fecf920"
     },
     {
-      "bytes": 29642,
+      "bytes": 29161,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-DespatchAdvice-2.1.xsd",
-      "sha256": "b9214e222bacc967bba2fc65a0f2c2e5a6027c302e6c07a1ca5ef7a71025d0df"
+      "sha256": "a15a064c98c6a04548e2d594da20167025ecea3271fc0eb2b4a6853fc8838473"
     },
     {
-      "bytes": 21110,
+      "bytes": 20761,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-DocumentStatus-2.1.xsd",
-      "sha256": "8e0b68e25192f9f26be2832abc721b2038df77698ea5f77bbeed378950bf6e24"
+      "sha256": "02e840cb92d0bb8f02a9e8593fd6d5353d62bb33d6b16c8a68cf7ee1f29d9af3"
     },
     {
-      "bytes": 21326,
+      "bytes": 20979,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-DocumentStatusRequest-2.1.xsd",
-      "sha256": "3c4f0584271d4b8d803264f3b8f8e1e5ca877ce6b411441fadf536791ccd4ab2"
+      "sha256": "621e40ab50d0fa50ee47f0c5ff975df1f4096adcbe702c1ecf5cd8f35e4f8ae6"
     },
     {
-      "bytes": 25731,
+      "bytes": 25315,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ExceptionCriteria-2.1.xsd",
-      "sha256": "aa11ab667167dc3428f3345cf4e86d17c42afc6e3ffd1fd2cc67b35433ff9891"
+      "sha256": "11230d06de7bfe205c267a88cafd4acdfd1f73987eaafbf624dae42e3c1bdcb8"
     },
     {
-      "bytes": 24942,
+      "bytes": 24540,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ExceptionNotification-2.1.xsd",
-      "sha256": "1d062a50bad7edd0cf66c4ef387f5f90a7d8c8d402ac872e24d180c33b565d91"
+      "sha256": "2b8faa7d91c6a9d136c206c03dd5140e372fec0fdeb01d08dc535d962d78382f"
     },
     {
-      "bytes": 27304,
+      "bytes": 26851,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-Forecast-2.1.xsd",
-      "sha256": "fc7876df2987fb96d2977ca774c8fd5b7a73e59980baf59a3e2e1b437f3acae2"
+      "sha256": "56f93905040127e498e6cbb692dd811aafcf9041340bc6542404a7bd85adeb03"
     },
     {
-      "bytes": 27651,
+      "bytes": 27199,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ForecastRevision-2.1.xsd",
-      "sha256": "7737182a8fa00c1025903ce298913c1458327a6b3acbcb956d57f2d4c363ec86"
+      "sha256": "8a7b23b7120e04cc23917ea8e8f3140c8200dd6ea63b3374dd8271c147bbdc6c"
     },
     {
-      "bytes": 34295,
+      "bytes": 33779,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ForwardingInstructions-2.1.xsd",
-      "sha256": "f995b4b5cc14246fdfb841a63985463ed7a7c6f9bfb35cf8e4d6e3ef2dea77c8"
+      "sha256": "e5ad193afe62a766a76703b3005447a91666120722dd7da073c67c721385adb0"
     },
     {
-      "bytes": 53856,
+      "bytes": 52990,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-FreightInvoice-2.1.xsd",
-      "sha256": "dcb9f84f39e1057ad51d93cba62a0edc9d0849940033886aa64d9c1529d4a73c"
+      "sha256": "503af02a4bcf1291f32334496a85b9f03a9debe0a2823946a718b8dec38d7e18"
     },
     {
-      "bytes": 29319,
+      "bytes": 28849,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-FulfilmentCancellation-2.1.xsd",
-      "sha256": "559b5571578b5875fcdb19c41ee77c37eec8b36ed8ce72760ef72b059c4a8278"
+      "sha256": "41503148dadfd91e6edf210f344990f17e395d28000350944d3e05798e4308bf"
     },
     {
-      "bytes": 26976,
+      "bytes": 26546,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-GoodsItemItinerary-2.1.xsd",
-      "sha256": "39addfd1055cfaa93f57056169060c020c5e70296da291b9707b1dfc2cd7f9fa"
+      "sha256": "e522c7659cb8fec279680e260fa178d162dacc68de0d92e916676be0ad6c17d5"
     },
     {
-      "bytes": 29668,
+      "bytes": 29188,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-GuaranteeCertificate-2.1.xsd",
-      "sha256": "1b29d9d90dc280a5ca2c9bc55c5d6cd29f140c9ad465457444c60da9e02d539a"
+      "sha256": "dc4c078aee2b71079ab494f3e4f64aeccb341c8c1050e174201fccdc1b16eca1"
     },
     {
-      "bytes": 23674,
+      "bytes": 23292,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-InstructionForReturns-2.1.xsd",
-      "sha256": "69fb4d2078e4336097578d6a64097b977241129f97fbe55e59feab9a9ee6e626"
+      "sha256": "51b8becf23dbbd6f308d39568ec6ede728a60ee5ca41de063e8598c43ab48a4a"
     },
     {
-      "bytes": 24897,
+      "bytes": 24497,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-InventoryReport-2.1.xsd",
-      "sha256": "ac8f83d70d483dca06e833e86c5953bcaf63e87d8eb706409dbd8ac64a43f436"
+      "sha256": "67acb202c724119a824f0bcbd2c4dd2ece66147e2847f4d7984f5405e2d2136e"
     },
     {
-      "bytes": 61179,
+      "bytes": 60178,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-Invoice-2.1.xsd",
-      "sha256": "73a771d90790220181b0cb1a037b81b4baeea33c8bf2e3c8e12111090e644c6e"
+      "sha256": "40fae8cb436f3a9506d7acce65ba162caef3b0bed4d5cbc0992b2153ded4edf4"
     },
     {
-      "bytes": 24840,
+      "bytes": 24439,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ItemInformationRequest-2.1.xsd",
-      "sha256": "e165615195250a60f6059b61531abfdf73aa1b4a2a3a77ec0f28b404c21c42bc"
+      "sha256": "3c713fe8abe099786c8b6150f93f2d79463b14617de94ba3f2fb3ffa4e36fce8"
     },
     {
-      "bytes": 54605,
+      "bytes": 53715,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-Order-2.1.xsd",
-      "sha256": "0db4d7fbfb8ecc6df78a0fc5d4e8e9a414d9d96f7a2f40e07856cbe992947bc5"
+      "sha256": "81c56acdcd9cb34411f14d1de50ebc38d87ee2dd11db426c327da6683175cb38"
     },
     {
-      "bytes": 25622,
+      "bytes": 25207,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-OrderCancellation-2.1.xsd",
-      "sha256": "a4e03b913e5eddc37ebba60779ba7c647aa0e259e49695c5e5b697c03094613d"
+      "sha256": "5f2a1e23ab66f8ed3f47d796f2cccea25e1ed585d83295307a4c7ec52066a5c2"
     },
     {
-      "bytes": 53968,
+      "bytes": 53100,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-OrderChange-2.1.xsd",
-      "sha256": "97a1063476300f4a92f2e50bf59c8b987c97a14569ffcd42a52dd585173a843c"
+      "sha256": "ad9872f5dcda83464ed05f335a0f9caf20c38c78f8e88309656b133a749af10b"
     },
     {
-      "bytes": 59566,
+      "bytes": 58611,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-OrderResponse-2.1.xsd",
-      "sha256": "c0877ee2917147a235b4d6234755e6c53248da9c562630e52a9cc53333f338f0"
+      "sha256": "0ad792781b10bf37b97a5b683b15894ea077114bfecf44ea220c294254755a56"
     },
     {
-      "bytes": 30298,
+      "bytes": 29813,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-OrderResponseSimple-2.1.xsd",
-      "sha256": "304982a0f984d930486c70b164086818a773c89219ca749147839c0259e5c905"
+      "sha256": "690abf9a736d215a58f456c196f1accb6213fc5436443365474484068f09ec33"
     },
     {
-      "bytes": 26673,
+      "bytes": 26242,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-PackingList-2.1.xsd",
-      "sha256": "d32284c9c3d9fe39695b1c5978fdf03d5c23142a8c96e2714bd137b385e08fd9"
+      "sha256": "902344d547ee9279e14a8122b1d80f3dbba8ea403e2fdb8380c75add04554cb6"
     },
     {
-      "bytes": 27414,
+      "bytes": 26974,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-PriorInformationNotice-2.1.xsd",
-      "sha256": "9eec457fc737a5126c65e82ef37813e848b144b7e2a1c4da995e8fa543445571"
+      "sha256": "3c08d009561a874c3c14198d5b2573250e81e8420184ff2be514bd5a2359e2b0"
     },
     {
-      "bytes": 23662,
+      "bytes": 23276,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ProductActivity-2.1.xsd",
-      "sha256": "a982a4143d1fff8bec4b702935b3d86e9b38baf107f0b542dbd9bc2873114676"
+      "sha256": "943023a2a163e9404764327ca9773956f13b3b8e4280afdf2a6c8477e9f85f9b"
     },
     {
-      "bytes": 35434,
+      "bytes": 34852,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-Quotation-2.1.xsd",
-      "sha256": "2c3e92b24ff22d751d5954f72013c32b1f8847011b6f265448b82eca496b9b78"
+      "sha256": "0e0cc55192312b05a19e0f5b85975431d13e1d03bad2d8c741c192a941bd22c3"
     },
     {
-      "bytes": 29746,
+      "bytes": 29262,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ReceiptAdvice-2.1.xsd",
-      "sha256": "8992be40469e79605a74e3103b364e1a2b0fa9115addb5270726aa83b771f4e2"
+      "sha256": "6f19d85218ce4ead68bbb6071d5d14a75bdcd26e1180a9045465584625629ec0"
     },
     {
-      "bytes": 46460,
+      "bytes": 45702,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-Reminder-2.1.xsd",
-      "sha256": "890202d3058044979c8bbe657ee18855ecb4ac2ffc2bb19df2bb57315618d38f"
+      "sha256": "04387870090bd3406657f22de8d74fa3a5d8e6b3aab7b28563e2c52ea7950837"
     },
     {
-      "bytes": 34961,
+      "bytes": 34395,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-RemittanceAdvice-2.1.xsd",
-      "sha256": "241d0614cc936876cfbc1d4b5153807f4d0571916a2bb03f5dd20d42f84cf1af"
+      "sha256": "0d1744b151eba32aba897e7149cff005ae92e4e90628f0ff306e8eb26fe4435b"
     },
     {
-      "bytes": 32155,
+      "bytes": 31637,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-RequestForQuotation-2.1.xsd",
-      "sha256": "80956e595e589343b5f2a53e74282f876a04c348237a4915abf80e73cc671f21"
+      "sha256": "c96400aff09730dfbfaa7fd187c3102f282bfc30d2d27561e138eff4dbafae49"
     },
     {
-      "bytes": 31411,
+      "bytes": 30897,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-RetailEvent-2.1.xsd",
-      "sha256": "cbd13b965ddd1e4248b40ea3da2069d60b90b69d42bfd779fbee50345c11ece3"
+      "sha256": "b444556d92060a9da271ad2f598bef023e2e2a48a7f49e3eb94f4695727ce2c8"
     },
     {
-      "bytes": 58086,
+      "bytes": 57169,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-SelfBilledCreditNote-2.1.xsd",
-      "sha256": "11e635a4f0eb8ca4257b6a262230f83ef7a042e0d4d2ce597533b4472e9a71f7"
+      "sha256": "0d8596cebe481f88e815497b2cbd13b5406e3384c48fa8a9338ddda33be3fd3b"
     },
     {
-      "bytes": 58300,
+      "bytes": 57368,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-SelfBilledInvoice-2.1.xsd",
-      "sha256": "dada77782e8fae11f737911394a1fb0c0cc4f55d4ba111768f704e63bdeee171"
+      "sha256": "b5476aee79f3aa202398af0dd056c20e4272522738843b9486f5fa51a3b71ae5"
     },
     {
-      "bytes": 36281,
+      "bytes": 35682,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-Statement-2.1.xsd",
-      "sha256": "078e7b07e671803cc3aa6ce9a6a146c15b11919cd9c7b0145600ac451f50864b"
+      "sha256": "436af114acd44534c6de4c19b31785c7864399c8aa11cd916259de8cd326ce2f"
     },
     {
-      "bytes": 25300,
+      "bytes": 24898,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-StockAvailabilityReport-2.1.xsd",
-      "sha256": "38862aa1f5e2688734361c5fcfa6e120c6ae05167a1415082709045b9c8537cc"
+      "sha256": "f50da469ae83d7538dc179ef5470a901f4aeb1c7b0c7abd527c2a4b693cf184b"
     },
     {
-      "bytes": 28243,
+      "bytes": 27780,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-Tender-2.1.xsd",
-      "sha256": "f0f9534cebd09370a7b9cf87b960bfc52b1b36ee880057e5080215e15148cc8d"
+      "sha256": "6b4aeba03420a8d87bb877f2f874b119beccba9df673999dec32031a612c1df9"
     },
     {
-      "bytes": 24036,
+      "bytes": 23639,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TenderReceipt-2.1.xsd",
-      "sha256": "edfa2bdb2b7e2548b835d1e6b07fefaa52351b1785fc60d3b460a64549f051e5"
+      "sha256": "c2b34c2aff9f6045681c4822277e3f7771e37f73bd69751a2bf6f85e91a951d0"
     },
     {
-      "bytes": 24644,
+      "bytes": 24244,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TendererQualification-2.1.xsd",
-      "sha256": "f6739f3a7c58759b6424c9aaea7b0df998831bd18a18e4f1d53ba016f0e40a2f"
+      "sha256": "79210e0d7a3dff70274c41928d9b73442bf4da41e1ad6a343268a170f064139d"
     },
     {
-      "bytes": 24973,
+      "bytes": 24575,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TendererQualificationResponse-2.1.xsd",
-      "sha256": "59157532417003ab41d4a46384e2bcd2729bf391255ef464bccb528b55c8030d"
+      "sha256": "570f6a103af55b78be11862dbc2ee9d1c0efe218a84ba3cc75f77d273d467ed3"
     },
     {
-      "bytes": 25734,
+      "bytes": 25320,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TradeItemLocationProfile-2.1.xsd",
-      "sha256": "1b11abeb846eaef50a230a37c84c52cb93fdb9a56e14a42d841c69c417c93c46"
+      "sha256": "09e073aa1ab79016f253930d52fc4912952c1ba542d019f32520f47c75da1dc5"
     },
     {
-      "bytes": 49774,
+      "bytes": 49006,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TransportExecutionPlan-2.1.xsd",
-      "sha256": "b6a3cb1bf70ac0231894a36972ee0272e2af30c3e004470415121a40eaeae768"
+      "sha256": "ac243ddb367837d16e4a629d1e84a7eefa93fea97a6674525cb3a1f0cb72d2d6"
     },
     {
-      "bytes": 45582,
+      "bytes": 44887,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TransportExecutionPlanRequest-2.1.xsd",
-      "sha256": "8567874aff7be70a99222c3174f8306d65c5ed8998a0c6808cd17faaf82c3142"
+      "sha256": "d96ebf7c9efebf263f973d147428eb5356e22172b514127e7c33006f35ae814e"
     },
     {
-      "bytes": 24861,
+      "bytes": 24466,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TransportProgressStatus-2.1.xsd",
-      "sha256": "120cd6caee549e47e099934aac0bf3f2a56aff13de77f83bef99413444ddbb65"
+      "sha256": "ada67fd9d5a7a7eb6947238ae614c1f24227a01d793b08a314719efb1831b8f2"
     },
     {
-      "bytes": 21571,
+      "bytes": 21227,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TransportProgressStatusRequest-2.1.xsd",
-      "sha256": "975ae2ae3f18dc933f4ce0e06c6539b34c530475cc7d375a1b2f4eee6929fa67"
+      "sha256": "97d85dae95fc546fd1ebb32dc3f0774ef64dad47b397e8882e3b58d2b085f256"
     },
     {
-      "bytes": 27066,
+      "bytes": 26637,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TransportServiceDescription-2.1.xsd",
-      "sha256": "708ec98eb720116079fb0b8a7a8ca179d270fb8ccc5ceb2e0febf04048f87fdc"
+      "sha256": "7003cc74406048a80e4ab8da09575b50a22122180f5f75344c037438e62329e9"
     },
     {
-      "bytes": 22982,
+      "bytes": 22620,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TransportServiceDescriptionRequest-2.1.xsd",
-      "sha256": "1fba5466074836bb562fb5e9a9d87b9fa8635e3ae98bc2fe6af66f65fc2d9994"
+      "sha256": "b2e9f1362f2a372f52cb0c07644d8d0ed6147c92f571610cfe0835a55325d2e9"
     },
     {
-      "bytes": 35525,
+      "bytes": 34960,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TransportationStatus-2.1.xsd",
-      "sha256": "96f54f2ba9cfda3b8caea4a3eb66d9479cb866d2c32b67d82b9c66ecf914c3c9"
+      "sha256": "248d70fa99093a0590634d545d28c60b79625dfdaddcf8e8e81ce36ab74f2940"
     },
     {
-      "bytes": 30289,
+      "bytes": 29806,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TransportationStatusRequest-2.1.xsd",
-      "sha256": "ed7fbcf6ded8f225fa89b56537d9dbef14bc70d3b2ed9faad19e58c5d17e44e1"
+      "sha256": "abdd3ef3d98b7c6317eb2d3744a7b3edd58cf942c99a25ecbad36ab20e7d2960"
     },
     {
-      "bytes": 25696,
+      "bytes": 25282,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-UnawardedNotification-2.1.xsd",
-      "sha256": "0820bec5b28667987cacc01be9ff8799dbb8395fd659b5e7b3ac42d0937dc873"
+      "sha256": "cc699c7272925da778ef4f488777e7ebad7be45b4951becf2cfb91472e74ff06"
     },
     {
-      "bytes": 30390,
+      "bytes": 29901,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-UtilityStatement-2.1.xsd",
-      "sha256": "bcbf7f37ea4fcb73e4c4ea4bd1df7320e14100e88118f1266691baf0c4db9bc2"
+      "sha256": "61a8f07b16ad83690a46ca286900b4c9f28888a6e5533a7291c31a143f10cb50"
     },
     {
-      "bytes": 31671,
+      "bytes": 31171,
       "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-Waybill-2.1.xsd",
-      "sha256": "4199d9c7261d9e4d6451cd6393b57651d6192ba09c483b2bcee05b0d678506ad"
+      "sha256": "740a4706345d8aa82b4646cb78ddd44bc2eb91340187ad3dce07101fa44f459f"
     },
     {
       "bytes": 2177,
