@@ -1,0 +1,690 @@
+{
+  "files": [
+    {
+      "bytes": 2034,
+      "path": ".github/workflows/ci.yml",
+      "sha256": "0db35d9be8307a58635be6b5baede7f804efdce3a63c2e889f4a65ce1638f056"
+    },
+    {
+      "bytes": 10351,
+      "path": "LICENSE",
+      "sha256": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549"
+    },
+    {
+      "bytes": 2101,
+      "path": "README.md",
+      "sha256": "ae4141413afe32334a97847f8fcc3f35b6e52b01bd5336645d580d31aee6cd16"
+    },
+    {
+      "bytes": 3309,
+      "path": "docs/learning/01_ubl_and_pint_ae.md",
+      "sha256": "7b3f1987ae192c337bf7af8274122ccfb60fe014df34b0cef5060c7b9015d196"
+    },
+    {
+      "bytes": 3219,
+      "path": "docs/learning/04_lxml_and_xpath.md",
+      "sha256": "83ad4f32ddcdf8e72f373b355177e46a581069e5e4d308c65049e9bc67a13bf0"
+    },
+    {
+      "bytes": 3445,
+      "path": "docs/learning/05_field_maps_and_spec_traceability.md",
+      "sha256": "eeabbc056d1c30e2e5555b36a3d0574b0286ef85ac70d0489ede92d5171da018"
+    },
+    {
+      "bytes": 3343,
+      "path": "docs/learning/07_cli_design_for_compliance_tools.md",
+      "sha256": "258f4a12a03197e1db7bed8796ecec0ed237cbc4e7d85c4f8c215146b9a6e121"
+    },
+    {
+      "bytes": 2858,
+      "path": "docs/learning/08_educational_notebooks.md",
+      "sha256": "bbdbcca06501906f95683a264e530d5c9ac6bfe3597ea7e0dd3386bff1aa3baa"
+    },
+    {
+      "bytes": 3122,
+      "path": "docs/learning/13_publishing_python_wheels.md",
+      "sha256": "965cab66ad206627a6b5ed82fe408b8500aa850efdcf69f020d513891d14fb4d"
+    },
+    {
+      "bytes": 4302,
+      "path": "docs/learning/17_bilingual_pdf.md",
+      "sha256": "a991290b3e467375800dc17fa69713f619b0eeec65e050012c7a5d66745962f2"
+    },
+    {
+      "bytes": 3587,
+      "path": "docs/learning/22_schematron_pipeline.md",
+      "sha256": "7e4323975a401c6cc6a1d7f0d91df2d8a19f3d4c064d2efe13769b89c3836bba"
+    },
+    {
+      "bytes": 4145,
+      "path": "docs/learning/24_official_rulebook.md",
+      "sha256": "029648b966cc54112fa33d0da9fc8f6d840d1049c7058a0336cc04cfb5a4eec1"
+    },
+    {
+      "bytes": 3687,
+      "path": "docs/learning/25_regulatory_alignment.md",
+      "sha256": "edc21aa3469c4b7e63ade3cbc66d1a3080a278e8c891f65290485d75ca6501f2"
+    },
+    {
+      "bytes": 3832,
+      "path": "docs/learning/26_tool_layer.md",
+      "sha256": "6bde76e4569bb9608a0d8ee56dd88ee8c3564a31413c3242b62708fc254c73a8"
+    },
+    {
+      "bytes": 7475,
+      "path": "docs/learning/27_oracles_and_corpus.md",
+      "sha256": "dc867fd2bd6723fcd92022528dad7653cb52b4bac11fb3a90ac463c15f02829d"
+    },
+    {
+      "bytes": 10351,
+      "path": "packages/core/LICENSE",
+      "sha256": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549"
+    },
+    {
+      "bytes": 1900,
+      "path": "packages/core/NOTICE",
+      "sha256": "3de0423661951323775e840e94a011eb3614e4161fb42726f91324ab10e1eb48"
+    },
+    {
+      "bytes": 2141,
+      "path": "packages/core/README.md",
+      "sha256": "80470036fda26020bd32cf05287a036c5ce080d23f15fa263a0e71a10c9545d6"
+    },
+    {
+      "bytes": 2190,
+      "path": "packages/core/pyproject.toml",
+      "sha256": "b76c319a12ab6d311728855d6de5ef208f78c2acc69d45553ef61050386529e2"
+    },
+    {
+      "bytes": 2,
+      "path": "packages/core/src/pint_ae/__init__.py",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "bytes": 30777,
+      "path": "packages/core/src/pint_ae/cli.py",
+      "sha256": "d8c31a4df8a67899498afaf6003c9f28fe3f1cb7822b30bf37a4c61a7ffce7fa"
+    },
+    {
+      "bytes": 7610,
+      "path": "packages/core/src/pint_ae/compare.py",
+      "sha256": "3e467bb4b59d9c0c209edc437f531e3657b24952ebb619b4adec115f40b6f80c"
+    },
+    {
+      "bytes": 9109,
+      "path": "packages/core/src/pint_ae/config.py",
+      "sha256": "3057ee04e91ef85145eb8ed023be061d6e51fc30a34af7fbfe8505aa2cdd0a58"
+    },
+    {
+      "bytes": 30646,
+      "path": "packages/core/src/pint_ae/corpus.py",
+      "sha256": "ba4724fd2c5a05a9a1376574e9a254b1a8bc76927613c23ca0a6119d82ee7ea6"
+    },
+    {
+      "bytes": 7132,
+      "path": "packages/core/src/pint_ae/intake.py",
+      "sha256": "5d461f0ec7f23fbc4f4bf74a6ef6afda2c88b0ac8041e8d5f31e300b76f21a99"
+    },
+    {
+      "bytes": 16439,
+      "path": "packages/core/src/pint_ae/modules.py",
+      "sha256": "002d9767e93f02e074a1afd126264d29cca5d059cf88f600b36db26ec4018ab8"
+    },
+    {
+      "bytes": 9443,
+      "path": "packages/core/src/pint_ae/parser.py",
+      "sha256": "722250d9ab3dd6e5c2ac2cfccf6fa992e28a013e7de70949c3705102702d27d0"
+    },
+    {
+      "bytes": 14517,
+      "path": "packages/core/src/pint_ae/pdf.py",
+      "sha256": "c207ee52bea3771998bd06233b18a2acac231876a3197d9c2f55f45633091942"
+    },
+    {
+      "bytes": 0,
+      "path": "packages/core/src/pint_ae/py.typed",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 2539,
+      "path": "packages/core/src/pint_ae/regulatory.py",
+      "sha256": "a779460724ab91fb9c84f2c2a6a4a501584e2390ab0f1b1d2c76121f39fa7dad"
+    },
+    {
+      "bytes": 9247,
+      "path": "packages/core/src/pint_ae/results.py",
+      "sha256": "b93c1da9865447214b56db12320bc701a5fd0ce2a2b575ba8c2058568bc51f72"
+    },
+    {
+      "bytes": 21808,
+      "path": "packages/core/src/pint_ae/rules.py",
+      "sha256": "a010f82c28fd488b07c45ae48a2f2cf58acf3103cd6d30b0a1046d8d7b9d0dfd"
+    },
+    {
+      "bytes": 38,
+      "path": "packages/core/src/pint_ae/schematron/__init__.py",
+      "sha256": "ab023b3e42f14ce56ab793a5d08853a1e12519e0e254b795426a7fd46e2a5b9e"
+    },
+    {
+      "bytes": 2860,
+      "path": "packages/core/src/pint_ae/schematron/rules/README.md",
+      "sha256": "c9da62b2c0b03349bf7aa18be61adf035da75802e80462bb4f58224724dfca41"
+    },
+    {
+      "bytes": 90807,
+      "path": "packages/core/src/pint_ae/schematron/rules/peppol_bis3.sch",
+      "sha256": "7f2289742e09a27e65a7e9a82f6eb1b114c3f3ab6ed5162955c7aafca08dd6fb"
+    },
+    {
+      "bytes": 79552,
+      "path": "packages/core/src/pint_ae/schematron/rules/shared_pint.sch",
+      "sha256": "98f2e3f1ef90432f0905d21c9c448cf514422426beafd7d9e910aacdbb144d02"
+    },
+    {
+      "bytes": 11706,
+      "path": "packages/core/src/pint_ae/schematron/validator.py",
+      "sha256": "d4dfc8d2944c31576343b8a95e4efc521113843ba5f58be638001854c0a3e98e"
+    },
+    {
+      "bytes": 2389,
+      "path": "packages/core/src/pint_ae/schematron/vendor/pint-ae-1.0.4/README.md",
+      "sha256": "637da08d50f215fa522c20843a21ab64323e7fde73e07216f554cbc9319ce485"
+    },
+    {
+      "bytes": 2045,
+      "path": "packages/core/src/pint_ae/schematron/vendor/pint-ae-1.0.4/UNCL1001-creditnote.gc",
+      "sha256": "daaff8f0ffd4db41083d5b5c5d23c5da041fbf94576d4095db3e23edbf37f3fd"
+    },
+    {
+      "bytes": 2167,
+      "path": "packages/core/src/pint_ae/schematron/vendor/pint-ae-1.0.4/UNCL1001-invoice.gc",
+      "sha256": "e7edd811714391fd0f2a558ea2c38f0df4f88898e43880c3a1958e704daa68d6"
+    },
+    {
+      "bytes": 70998,
+      "path": "packages/core/src/pint_ae/schematron/vendor/pint-ae-1.0.4/jurisdiction.sch",
+      "sha256": "d0e767f246fa8e90749060a51fea5a22e03659ae83ec66aff9cfd3b932168a3e"
+    },
+    {
+      "bytes": 200074,
+      "path": "packages/core/src/pint_ae/schematron/vendor/pint-ae-1.0.4/jurisdiction.xslt",
+      "sha256": "da931f161362fe26bb9f5a1e519cd44758e5cba977584800b806c09bcf1b807b"
+    },
+    {
+      "bytes": 79671,
+      "path": "packages/core/src/pint_ae/schematron/vendor/pint-ae-1.0.4/shared.sch",
+      "sha256": "c073dd645db0401a3276cfa31f381750d35f7fde8381b19b92b8bceee236f534"
+    },
+    {
+      "bytes": 243710,
+      "path": "packages/core/src/pint_ae/schematron/vendor/pint-ae-1.0.4/shared.xslt",
+      "sha256": "b6557c207f1cccaebf32b67ae0d50b309192751b58ddd22fa5af90c6d45f7d16"
+    },
+    {
+      "bytes": 2072,
+      "path": "packages/core/src/pint_ae/schematron/vendor/pint-ae-sb-1.0.4/UNCL1001-creditnote.gc",
+      "sha256": "90fca61a5a67ecdff9105172232126033497fe5fc71c4d23a8dd7fa603cae253"
+    },
+    {
+      "bytes": 2106,
+      "path": "packages/core/src/pint_ae/schematron/vendor/pint-ae-sb-1.0.4/UNCL1001-invoice.gc",
+      "sha256": "3a086b80b5ccddf370f757e8cfcb87091c9b1611fa9f29aa9dacc0d5bd9e5cd6"
+    },
+    {
+      "bytes": 70998,
+      "path": "packages/core/src/pint_ae/schematron/vendor/pint-ae-sb-1.0.4/jurisdiction.sch",
+      "sha256": "d0e767f246fa8e90749060a51fea5a22e03659ae83ec66aff9cfd3b932168a3e"
+    },
+    {
+      "bytes": 200074,
+      "path": "packages/core/src/pint_ae/schematron/vendor/pint-ae-sb-1.0.4/jurisdiction.xslt",
+      "sha256": "da931f161362fe26bb9f5a1e519cd44758e5cba977584800b806c09bcf1b807b"
+    },
+    {
+      "bytes": 79671,
+      "path": "packages/core/src/pint_ae/schematron/vendor/pint-ae-sb-1.0.4/shared.sch",
+      "sha256": "5dd815399dfd0c22bd548d27228be061c6ca460b88b63344339f82ea758663fc"
+    },
+    {
+      "bytes": 243710,
+      "path": "packages/core/src/pint_ae/schematron/vendor/pint-ae-sb-1.0.4/shared.xslt",
+      "sha256": "e238b45bafe65038b846a9d8173054ab315ae0a709dc65f17b5de9d38303f037"
+    },
+    {
+      "bytes": 519,
+      "path": "packages/core/src/pint_ae/schematron/xsl/README.md",
+      "sha256": "956345846c5bf55f68e7ee7e4936a96eb9aff111b7e1a33879f62a4fc82de43d"
+    },
+    {
+      "bytes": 12015,
+      "path": "packages/core/src/pint_ae/schematron/xsl/iso_abstract_expand.xsl",
+      "sha256": "492519900916845606fd8347bd6f5453a5fcb6630e1f5bdda519b3aaed25e103"
+    },
+    {
+      "bytes": 55068,
+      "path": "packages/core/src/pint_ae/schematron/xsl/iso_dsdl_include.xsl",
+      "sha256": "a35d86063c4815da0666b64e4fbd068ecfbdd67d448ff2fcd2100315671179b6"
+    },
+    {
+      "bytes": 100010,
+      "path": "packages/core/src/pint_ae/schematron/xsl/iso_schematron_skeleton_for_saxon.xsl",
+      "sha256": "af9c898dd0144f6b0948160f71c9f2bc1a6c2801f84e8b686c324125100f8d1a"
+    },
+    {
+      "bytes": 24702,
+      "path": "packages/core/src/pint_ae/schematron/xsl/iso_svrl_for_xslt2.xsl",
+      "sha256": "30ece818189a63f8e51630750a8acbd7d7e8499ae132819b7771b89f80973b4d"
+    },
+    {
+      "bytes": 2734,
+      "path": "packages/core/src/pint_ae/scope.py",
+      "sha256": "2fcf88ffd7b372b0ea8d0488c64fc0e32c0962b49cb31967b72f6455002f7fbe"
+    },
+    {
+      "bytes": 4157,
+      "path": "packages/core/src/pint_ae/types.py",
+      "sha256": "6a184bdeb39e1535628e905a82c5e063e6cfbe4dddc8cb1f90d6dd58c42ad0e5"
+    },
+    {
+      "bytes": 45999,
+      "path": "packages/core/src/pint_ae/xsd/common/CCTS_CCT_SchemaModule-2.1.xsd",
+      "sha256": "d5fcf183b62d1e23021f1f62a5b129c9e1ef1fc7c451cf3d2f23e3fe5a8efbfd"
+    },
+    {
+      "bytes": 2460242,
+      "path": "packages/core/src/pint_ae/xsd/common/UBL-CommonAggregateComponents-2.1.xsd",
+      "sha256": "2fd76c6bead543354c01bc40eab3e8188c25ee96b2a902456522ec6bab8b483e"
+    },
+    {
+      "bytes": 225283,
+      "path": "packages/core/src/pint_ae/xsd/common/UBL-CommonBasicComponents-2.1.xsd",
+      "sha256": "0e71e086fbacb274b385fed385e29d7678ff9af6201f2975c3b51c298f51743a"
+    },
+    {
+      "bytes": 9713,
+      "path": "packages/core/src/pint_ae/xsd/common/UBL-CommonExtensionComponents-2.1.xsd",
+      "sha256": "ad8d68885d9e72d73f2ba50f173a408366a1dcbe59b88aced65df95a8dc2a646"
+    },
+    {
+      "bytes": 5648,
+      "path": "packages/core/src/pint_ae/xsd/common/UBL-CommonSignatureComponents-2.1.xsd",
+      "sha256": "4b1712f409695448e05288209792eef1980a5833fb13157b4b49d36ccc8a37a0"
+    },
+    {
+      "bytes": 3236,
+      "path": "packages/core/src/pint_ae/xsd/common/UBL-CoreComponentParameters-2.1.xsd",
+      "sha256": "884dfb162e341ba7c67fce002c5f04af6082b4901e53777322463dbb81cf69f4"
+    },
+    {
+      "bytes": 4402,
+      "path": "packages/core/src/pint_ae/xsd/common/UBL-ExtensionContentDataType-2.1.xsd",
+      "sha256": "b91487d4b9e9a6c2853998873ed510da16897530479b5af0565a3bcfdf5c97d3"
+    },
+    {
+      "bytes": 3659,
+      "path": "packages/core/src/pint_ae/xsd/common/UBL-QualifiedDataTypes-2.1.xsd",
+      "sha256": "1a6182be542088f70d0351bbee1186d6b44ef86fac9a580622928ec989e558a9"
+    },
+    {
+      "bytes": 7921,
+      "path": "packages/core/src/pint_ae/xsd/common/UBL-SignatureAggregateComponents-2.1.xsd",
+      "sha256": "f54c70a5c9f4892d553ad397cbda2affbf861fd56f095c9094e205613a403e83"
+    },
+    {
+      "bytes": 4284,
+      "path": "packages/core/src/pint_ae/xsd/common/UBL-SignatureBasicComponents-2.1.xsd",
+      "sha256": "28207e7f2727857318a18ba6890fc158f4ac04eee1697285865111b50e2fad40"
+    },
+    {
+      "bytes": 27853,
+      "path": "packages/core/src/pint_ae/xsd/common/UBL-UnqualifiedDataTypes-2.1.xsd",
+      "sha256": "dd5b4e58a49dad38f1ec72b9e0ac4913dcf51168886bb87e2335fb168736018b"
+    },
+    {
+      "bytes": 22140,
+      "path": "packages/core/src/pint_ae/xsd/common/UBL-XAdESv132-2.1.xsd",
+      "sha256": "6cb9e71bef4d0de3baf5d1fa4268898ece0245d60d0ce22e76af92b7602089a3"
+    },
+    {
+      "bytes": 1341,
+      "path": "packages/core/src/pint_ae/xsd/common/UBL-XAdESv141-2.1.xsd",
+      "sha256": "dbeb8eb9cde28083521551e27044200fdfe20280bb666dd052cf0de294ae14d4"
+    },
+    {
+      "bytes": 11080,
+      "path": "packages/core/src/pint_ae/xsd/common/UBL-xmldsig-core-schema-2.1.xsd",
+      "sha256": "4da8800539360f2352afaeb7b7bd553c78a437887eaa67e33ee5573dde331094"
+    },
+    {
+      "bytes": 22026,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ApplicationResponse-2.1.xsd",
+      "sha256": "f2a83c8a799dbfb3decdfb4e6ddd661bb9a7ca123f6c87a711dc77c5bb131941"
+    },
+    {
+      "bytes": 25216,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-AttachedDocument-2.1.xsd",
+      "sha256": "3af959fef538fc793ba7e03efbe790a34d826cc5a22279453888d6f69e798f7e"
+    },
+    {
+      "bytes": 25740,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-AwardedNotification-2.1.xsd",
+      "sha256": "7a1df2e69b06bf75d594b4f0330601204aede8cd0b5766c138311555510d13de"
+    },
+    {
+      "bytes": 35559,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-BillOfLading-2.1.xsd",
+      "sha256": "1c30651619d02d4c9bc9a23c4dc554078e1e7ad12b4956d7a9b20a62090d950f"
+    },
+    {
+      "bytes": 31611,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-CallForTenders-2.1.xsd",
+      "sha256": "ffe4d1ef2d6cb54398da2545a341d591ddca904f5d95bef24fdb498c342de521"
+    },
+    {
+      "bytes": 34345,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-Catalogue-2.1.xsd",
+      "sha256": "33547c82ecb1c08fe7973f8d20414fe738ac832341bf8d11f62d866abc83d691"
+    },
+    {
+      "bytes": 28576,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-CatalogueDeletion-2.1.xsd",
+      "sha256": "3e1dd989c7edae4a8e2836102ce15702a42db8e1e4ed7920fec012edc2992314"
+    },
+    {
+      "bytes": 34047,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-CatalogueItemSpecificationUpdate-2.1.xsd",
+      "sha256": "156f9cb428312898c6706ce28639a780adf4137e01d2c6422be4025c6d5dfce7"
+    },
+    {
+      "bytes": 33177,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-CataloguePricingUpdate-2.1.xsd",
+      "sha256": "686e9293284110c3aaa26d93f7b9328ec356057a5d22c3b6459b18368a7ce948"
+    },
+    {
+      "bytes": 35625,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-CatalogueRequest-2.1.xsd",
+      "sha256": "afd4d6ee86a610f9ef05018ff513487ba5fc8adf4303663bb38a6115dd31f4c5"
+    },
+    {
+      "bytes": 25957,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-CertificateOfOrigin-2.1.xsd",
+      "sha256": "3ed3e1dfadfae25eab133d93886fb281e2a75e0b26048028f9e8ebf28f86b98d"
+    },
+    {
+      "bytes": 30592,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ContractAwardNotice-2.1.xsd",
+      "sha256": "512a77961a09a10efae4305f4ff2c0533301891586d2f6e9525a2ac15b9e969e"
+    },
+    {
+      "bytes": 28045,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ContractNotice-2.1.xsd",
+      "sha256": "be21c43595a5a4c6619929f4e2a13685c38e63a591a36f8a1f45b0c04e75ef7e"
+    },
+    {
+      "bytes": 58647,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-CreditNote-2.1.xsd",
+      "sha256": "6b1efca5933d07c78e3eeea86a5c8cb08328cfe11762686d397669020bcbc5f9"
+    },
+    {
+      "bytes": 56349,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-DebitNote-2.1.xsd",
+      "sha256": "9d8fccb9926337ae4d0a5f8f4c12a467e72bc43b87933802b4e1c3dd60a0436f"
+    },
+    {
+      "bytes": 29642,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-DespatchAdvice-2.1.xsd",
+      "sha256": "b9214e222bacc967bba2fc65a0f2c2e5a6027c302e6c07a1ca5ef7a71025d0df"
+    },
+    {
+      "bytes": 21110,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-DocumentStatus-2.1.xsd",
+      "sha256": "8e0b68e25192f9f26be2832abc721b2038df77698ea5f77bbeed378950bf6e24"
+    },
+    {
+      "bytes": 21326,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-DocumentStatusRequest-2.1.xsd",
+      "sha256": "3c4f0584271d4b8d803264f3b8f8e1e5ca877ce6b411441fadf536791ccd4ab2"
+    },
+    {
+      "bytes": 25731,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ExceptionCriteria-2.1.xsd",
+      "sha256": "aa11ab667167dc3428f3345cf4e86d17c42afc6e3ffd1fd2cc67b35433ff9891"
+    },
+    {
+      "bytes": 24942,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ExceptionNotification-2.1.xsd",
+      "sha256": "1d062a50bad7edd0cf66c4ef387f5f90a7d8c8d402ac872e24d180c33b565d91"
+    },
+    {
+      "bytes": 27304,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-Forecast-2.1.xsd",
+      "sha256": "fc7876df2987fb96d2977ca774c8fd5b7a73e59980baf59a3e2e1b437f3acae2"
+    },
+    {
+      "bytes": 27651,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ForecastRevision-2.1.xsd",
+      "sha256": "7737182a8fa00c1025903ce298913c1458327a6b3acbcb956d57f2d4c363ec86"
+    },
+    {
+      "bytes": 34295,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ForwardingInstructions-2.1.xsd",
+      "sha256": "f995b4b5cc14246fdfb841a63985463ed7a7c6f9bfb35cf8e4d6e3ef2dea77c8"
+    },
+    {
+      "bytes": 53856,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-FreightInvoice-2.1.xsd",
+      "sha256": "dcb9f84f39e1057ad51d93cba62a0edc9d0849940033886aa64d9c1529d4a73c"
+    },
+    {
+      "bytes": 29319,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-FulfilmentCancellation-2.1.xsd",
+      "sha256": "559b5571578b5875fcdb19c41ee77c37eec8b36ed8ce72760ef72b059c4a8278"
+    },
+    {
+      "bytes": 26976,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-GoodsItemItinerary-2.1.xsd",
+      "sha256": "39addfd1055cfaa93f57056169060c020c5e70296da291b9707b1dfc2cd7f9fa"
+    },
+    {
+      "bytes": 29668,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-GuaranteeCertificate-2.1.xsd",
+      "sha256": "1b29d9d90dc280a5ca2c9bc55c5d6cd29f140c9ad465457444c60da9e02d539a"
+    },
+    {
+      "bytes": 23674,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-InstructionForReturns-2.1.xsd",
+      "sha256": "69fb4d2078e4336097578d6a64097b977241129f97fbe55e59feab9a9ee6e626"
+    },
+    {
+      "bytes": 24897,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-InventoryReport-2.1.xsd",
+      "sha256": "ac8f83d70d483dca06e833e86c5953bcaf63e87d8eb706409dbd8ac64a43f436"
+    },
+    {
+      "bytes": 61179,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-Invoice-2.1.xsd",
+      "sha256": "73a771d90790220181b0cb1a037b81b4baeea33c8bf2e3c8e12111090e644c6e"
+    },
+    {
+      "bytes": 24840,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ItemInformationRequest-2.1.xsd",
+      "sha256": "e165615195250a60f6059b61531abfdf73aa1b4a2a3a77ec0f28b404c21c42bc"
+    },
+    {
+      "bytes": 54605,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-Order-2.1.xsd",
+      "sha256": "0db4d7fbfb8ecc6df78a0fc5d4e8e9a414d9d96f7a2f40e07856cbe992947bc5"
+    },
+    {
+      "bytes": 25622,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-OrderCancellation-2.1.xsd",
+      "sha256": "a4e03b913e5eddc37ebba60779ba7c647aa0e259e49695c5e5b697c03094613d"
+    },
+    {
+      "bytes": 53968,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-OrderChange-2.1.xsd",
+      "sha256": "97a1063476300f4a92f2e50bf59c8b987c97a14569ffcd42a52dd585173a843c"
+    },
+    {
+      "bytes": 59566,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-OrderResponse-2.1.xsd",
+      "sha256": "c0877ee2917147a235b4d6234755e6c53248da9c562630e52a9cc53333f338f0"
+    },
+    {
+      "bytes": 30298,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-OrderResponseSimple-2.1.xsd",
+      "sha256": "304982a0f984d930486c70b164086818a773c89219ca749147839c0259e5c905"
+    },
+    {
+      "bytes": 26673,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-PackingList-2.1.xsd",
+      "sha256": "d32284c9c3d9fe39695b1c5978fdf03d5c23142a8c96e2714bd137b385e08fd9"
+    },
+    {
+      "bytes": 27414,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-PriorInformationNotice-2.1.xsd",
+      "sha256": "9eec457fc737a5126c65e82ef37813e848b144b7e2a1c4da995e8fa543445571"
+    },
+    {
+      "bytes": 23662,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ProductActivity-2.1.xsd",
+      "sha256": "a982a4143d1fff8bec4b702935b3d86e9b38baf107f0b542dbd9bc2873114676"
+    },
+    {
+      "bytes": 35434,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-Quotation-2.1.xsd",
+      "sha256": "2c3e92b24ff22d751d5954f72013c32b1f8847011b6f265448b82eca496b9b78"
+    },
+    {
+      "bytes": 29746,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-ReceiptAdvice-2.1.xsd",
+      "sha256": "8992be40469e79605a74e3103b364e1a2b0fa9115addb5270726aa83b771f4e2"
+    },
+    {
+      "bytes": 46460,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-Reminder-2.1.xsd",
+      "sha256": "890202d3058044979c8bbe657ee18855ecb4ac2ffc2bb19df2bb57315618d38f"
+    },
+    {
+      "bytes": 34961,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-RemittanceAdvice-2.1.xsd",
+      "sha256": "241d0614cc936876cfbc1d4b5153807f4d0571916a2bb03f5dd20d42f84cf1af"
+    },
+    {
+      "bytes": 32155,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-RequestForQuotation-2.1.xsd",
+      "sha256": "80956e595e589343b5f2a53e74282f876a04c348237a4915abf80e73cc671f21"
+    },
+    {
+      "bytes": 31411,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-RetailEvent-2.1.xsd",
+      "sha256": "cbd13b965ddd1e4248b40ea3da2069d60b90b69d42bfd779fbee50345c11ece3"
+    },
+    {
+      "bytes": 58086,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-SelfBilledCreditNote-2.1.xsd",
+      "sha256": "11e635a4f0eb8ca4257b6a262230f83ef7a042e0d4d2ce597533b4472e9a71f7"
+    },
+    {
+      "bytes": 58300,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-SelfBilledInvoice-2.1.xsd",
+      "sha256": "dada77782e8fae11f737911394a1fb0c0cc4f55d4ba111768f704e63bdeee171"
+    },
+    {
+      "bytes": 36281,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-Statement-2.1.xsd",
+      "sha256": "078e7b07e671803cc3aa6ce9a6a146c15b11919cd9c7b0145600ac451f50864b"
+    },
+    {
+      "bytes": 25300,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-StockAvailabilityReport-2.1.xsd",
+      "sha256": "38862aa1f5e2688734361c5fcfa6e120c6ae05167a1415082709045b9c8537cc"
+    },
+    {
+      "bytes": 28243,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-Tender-2.1.xsd",
+      "sha256": "f0f9534cebd09370a7b9cf87b960bfc52b1b36ee880057e5080215e15148cc8d"
+    },
+    {
+      "bytes": 24036,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TenderReceipt-2.1.xsd",
+      "sha256": "edfa2bdb2b7e2548b835d1e6b07fefaa52351b1785fc60d3b460a64549f051e5"
+    },
+    {
+      "bytes": 24644,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TendererQualification-2.1.xsd",
+      "sha256": "f6739f3a7c58759b6424c9aaea7b0df998831bd18a18e4f1d53ba016f0e40a2f"
+    },
+    {
+      "bytes": 24973,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TendererQualificationResponse-2.1.xsd",
+      "sha256": "59157532417003ab41d4a46384e2bcd2729bf391255ef464bccb528b55c8030d"
+    },
+    {
+      "bytes": 25734,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TradeItemLocationProfile-2.1.xsd",
+      "sha256": "1b11abeb846eaef50a230a37c84c52cb93fdb9a56e14a42d841c69c417c93c46"
+    },
+    {
+      "bytes": 49774,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TransportExecutionPlan-2.1.xsd",
+      "sha256": "b6a3cb1bf70ac0231894a36972ee0272e2af30c3e004470415121a40eaeae768"
+    },
+    {
+      "bytes": 45582,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TransportExecutionPlanRequest-2.1.xsd",
+      "sha256": "8567874aff7be70a99222c3174f8306d65c5ed8998a0c6808cd17faaf82c3142"
+    },
+    {
+      "bytes": 24861,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TransportProgressStatus-2.1.xsd",
+      "sha256": "120cd6caee549e47e099934aac0bf3f2a56aff13de77f83bef99413444ddbb65"
+    },
+    {
+      "bytes": 21571,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TransportProgressStatusRequest-2.1.xsd",
+      "sha256": "975ae2ae3f18dc933f4ce0e06c6539b34c530475cc7d375a1b2f4eee6929fa67"
+    },
+    {
+      "bytes": 27066,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TransportServiceDescription-2.1.xsd",
+      "sha256": "708ec98eb720116079fb0b8a7a8ca179d270fb8ccc5ceb2e0febf04048f87fdc"
+    },
+    {
+      "bytes": 22982,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TransportServiceDescriptionRequest-2.1.xsd",
+      "sha256": "1fba5466074836bb562fb5e9a9d87b9fa8635e3ae98bc2fe6af66f65fc2d9994"
+    },
+    {
+      "bytes": 35525,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TransportationStatus-2.1.xsd",
+      "sha256": "96f54f2ba9cfda3b8caea4a3eb66d9479cb866d2c32b67d82b9c66ecf914c3c9"
+    },
+    {
+      "bytes": 30289,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-TransportationStatusRequest-2.1.xsd",
+      "sha256": "ed7fbcf6ded8f225fa89b56537d9dbef14bc70d3b2ed9faad19e58c5d17e44e1"
+    },
+    {
+      "bytes": 25696,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-UnawardedNotification-2.1.xsd",
+      "sha256": "0820bec5b28667987cacc01be9ff8799dbb8395fd659b5e7b3ac42d0937dc873"
+    },
+    {
+      "bytes": 30390,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-UtilityStatement-2.1.xsd",
+      "sha256": "bcbf7f37ea4fcb73e4c4ea4bd1df7320e14100e88118f1266691baf0c4db9bc2"
+    },
+    {
+      "bytes": 31671,
+      "path": "packages/core/src/pint_ae/xsd/maindoc/UBL-Waybill-2.1.xsd",
+      "sha256": "4199d9c7261d9e4d6451cd6393b57651d6192ba09c483b2bcee05b0d678506ad"
+    },
+    {
+      "bytes": 2177,
+      "path": "packages/core/src/pint_ae/xsd_validator.py",
+      "sha256": "991753d414b7aeea738ce734645b2e501c000ff7fee47666991432a5f456345e"
+    }
+  ],
+  "schema": "pint-ae/showcase-export-v1"
+}

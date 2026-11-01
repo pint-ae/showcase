@@ -1,0 +1,45 @@
+pint-ae toolkit
+===============
+
+Copyright (c) 2026 JaxFx
+
+This product is licensed under the Apache License, Version 2.0. The full licence
+text is in the `LICENSE` file in this directory.
+
+Third-party material redistributed unmodified in this package
+------------------------------------------------------------
+
+1. PINT AE Billing 1.0.4 conformance artefacts
+
+   Files: `pint_ae/schematron/vendor/pint-ae-1.0.4/{shared,jurisdiction}.{sch,xslt}`,
+          `pint_ae/schematron/vendor/pint-ae-1.0.4/UNCL1001-*.gc`
+   Source: https://docs.peppol.eu/poac/ae/pint-ae/ (resources.zip)
+   Publisher: OpenPeppol AISBL / UAE Peppol Authority
+   Package SHA-256: 1e8b0bd595c672ac9d6fc886ddd0eb8027cb39a1d26bebdcb1ada37b7eee491f
+   Status: unmodified redistribution; see the publisher's package for its own terms.
+
+2. PINT AE Self-Billing 1.0.4 conformance artefacts
+
+   Files: `pint_ae/schematron/vendor/pint-ae-sb-1.0.4/{shared,jurisdiction}.{sch,xslt}`,
+          `pint_ae/schematron/vendor/pint-ae-sb-1.0.4/UNCL1001-*.gc`
+   Source: https://docs.peppol.eu/poac/ae/pint-ae-sb/ (resources.zip)
+   Publisher: OpenPeppol AISBL / UAE Peppol Authority
+   Package SHA-256: 7e6e58f120132dd2d2a6acf21b4a9318f0d07f2685c30ff282fae0e2a6613d15
+   Status: unmodified redistribution; see the publisher's package for its own terms.
+
+3. OASIS UBL 2.1 XML schemas
+
+   Files: `pint_ae/xsd/**`
+   Source: http://docs.oasis-open.org/ubl/os-UBL-2.1/
+   Publisher: OASIS Open
+   Status: unmodified redistribution under the OASIS terms referenced there.
+
+Not redistributed
+-----------------
+
+The EN 16931 validation corpus used as an external test oracle during development
+is EUPL-1.2 licensed third-party test data. It is **not** part of this package and
+is not redistributed here.
+
+Runtime dependencies (lxml, pydantic, typer, rich, reportlab, arabic-reshaper,
+python-bidi, saxonche) are distributed under their own licences.
