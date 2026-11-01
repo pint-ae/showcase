@@ -23,7 +23,7 @@ from lxml import etree
 from rich.console import Console
 
 from pint_ae import config as config_module
-from pint_ae import corpus, intake, regulatory
+from pint_ae import corpus, intake, licensing, regulatory
 from pint_ae import modules as module_catalogue
 from pint_ae.parser import parse
 from pint_ae.results import (
@@ -203,6 +203,10 @@ def diagnose_paths(
     )
     tax_group_trns = tax_group_trns or set()
     applied = config_module.apply_config(config) if config is not None else None
+    licence = licensing.current_licence()
+    not_licensed = [
+        module.id for module in module_catalogue.MODULES if not licence.covers(module.id)
+    ]
     if applied is not None:
         tax_group_trns = applied.config.tax_group.normalised()
 
@@ -234,6 +238,8 @@ def diagnose_paths(
             run.extra["jobs"] = jobs
             if applied is not None:
                 run.extra["config"] = applied.provenance()
+            run.extra["licence"] = licence.as_dict()
+            run.extra["licence_not_licensed"] = not_licensed
             return run
 
     for item in items:
@@ -260,6 +266,7 @@ def diagnose_paths(
                     modules,
                     applied.disabled_modules if applied is not None else [],
                     applied.config if applied is not None else None,
+                    not_licensed,
                 )
         result.elapsed_ms = int((perf_counter() - began) * 1000)
         run.files.append(result)
@@ -270,6 +277,8 @@ def diagnose_paths(
     run.extra["modules"] = modules
     if applied is not None:
         run.extra["config"] = applied.provenance()
+    run.extra["licence"] = licence.as_dict()
+    run.extra["licence_not_licensed"] = not_licensed
     return run
 
 
@@ -282,6 +291,7 @@ def _validate(
     modules: list[str] | None = None,
     not_entitled: list[str] | None = None,
     config: config_module.PintAeConfig | None = None,
+    not_licensed: list[str] | None = None,
 ) -> None:
     scope, reason = classify(inv, tax_group_trns)
     result.document_type = document_type(inv)
@@ -305,7 +315,10 @@ def _validate(
         ]
         findings = []
 
-    result.findings = filter_not_entitled(filter_modules(findings, modules), not_entitled or [])
+    result.findings = filter_not_entitled(
+        filter_not_entitled(filter_modules(findings, modules), not_entitled or []),
+        not_licensed or [],
+    )
     result.suppressed = suppressed
 
 
@@ -373,6 +386,13 @@ def render(run: RunResult, *, verbose: bool = False, quiet: bool = False) -> Non
         f"{summary['failed']} not validated"
         + (f", {summary['suppressed']} suppressed" if summary["suppressed"] else "")
     )
+    licence = run.extra.get("licence") or {}
+    if licence.get("state") == "free":
+        console.print(
+            "[yellow]![/yellow] licence: free evaluation - "
+            + str(len(summary.get("not_licensed", [])))
+            + " module(s) withheld (run `pint-ae modules` to see which)"
+        )
     if summary["not_entitled"]:
         console.print(
             "[yellow]![/yellow] not entitled (not checked): "
@@ -424,6 +444,18 @@ def diagnose(
     except ValueError as exc:
         console.print(f"[red]X[/red] {exc}")
         raise typer.Exit(code=3) from exc
+    licence = licensing.current_licence()
+    if selected:
+        refused = [module_id for module_id in selected if not licence.covers(module_id)]
+        if refused:
+            console.print(
+                "[red]X[/red] module(s) not licensed: "
+                + ", ".join(refused)
+                + " - a licence is required for production use of these modules; "
+                "contact the licensor or drop them from --modules"
+            )
+            raise typer.Exit(code=3)
+
     config = _load_config(config_file)
     extra_trns = {trn.strip() for trn in tax_group_trn if trn.strip()}
     if extra_trns:
@@ -473,6 +505,18 @@ def report(
     except ValueError as exc:
         console.print(f"[red]X[/red] {exc}")
         raise typer.Exit(code=3) from exc
+
+    licence = licensing.current_licence()
+    if selected:
+        refused = [module_id for module_id in selected if not licence.covers(module_id)]
+        if refused:
+            console.print(
+                "[red]X[/red] module(s) not licensed: "
+                + ", ".join(refused)
+                + " - a licence is required for production use of these modules; "
+                "contact the licensor or drop them from --modules"
+            )
+            raise typer.Exit(code=3)
 
     config = _load_config(config_file)
     extra_trns = {trn.strip() for trn in tax_group_trn if trn.strip()}
@@ -625,6 +669,7 @@ def modules(
     Prices and the service catalogue are not part of this package.
     """
     counts = module_catalogue.checks_per_module()
+    licence = licensing.current_licence()
     config = _load_config(config_file) if config_file is not None else None
     disabled = config.disabled_modules() if config is not None else []
     if json_out:
@@ -648,11 +693,21 @@ def modules(
     width = max(len(module.id) for module in module_catalogue.MODULES)
     for module in module_catalogue.MODULES:
         marker = "  (not entitled)" if module.id in disabled else ""
+        if not licence.covers(module.id):
+            marker += "  (licence required)"
         console.print(
             f"  {module.id:<{width}}  {counts.get(module.id, 0):>4}  {module.title}{marker}"
         )
     console.print(f"  {'total':<{width}}  {sum(counts.values()):>4}  per invoice/document")
-    console.print("\nSelect one with: pint-ae diagnose <path> --modules <id>")
+    console.print(
+        f"\nlicence: {licence.state}"
+        + (
+            f" ({licence.customer}, expires {licence.expires})"
+            if licence.licensed
+            else " - free evaluation; paid modules require a signed licence"
+        )
+    )
+    console.print("Select one with: pint-ae diagnose <path> --modules <id>")
 
 
 config_app = typer.Typer(help="Inspect and validate pint-ae.toml.", no_args_is_help=True)

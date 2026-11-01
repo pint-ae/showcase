@@ -218,6 +218,7 @@ class RunResult:
             "not_entitled": list(
                 self.extra.get("config", {}).get("entitlements", {}).get("not_entitled", [])
             ),
+            "not_licensed": list(self.extra.get("licence_not_licensed", [])),
         }
 
     def module_summary(self) -> dict[str, dict[str, int]]:

@@ -36,7 +36,7 @@ from pint_ae.regulatory import provenance
 from pint_ae.rules import RuleViolation
 from pint_ae.types import PintAeInvoice
 
-GENERATOR_VERSION = "0.4.0"
+GENERATOR_VERSION = "0.6.1"
 
 
 def _rule_counts() -> dict[str, int]:

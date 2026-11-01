@@ -76,7 +76,7 @@ Two lessons, both about evidence:
 
 ## Interview angle
 
-A candidate who says "I validate invoices against 356 checks" is describing
+A candidate who says "I validate invoices against 326 checks" is describing
 coverage. A candidate who says "I run the publisher's 302 assertions with their
 own samples as a regression gate, and I deleted my duplicate rules because they
 had drifted from the spec" is describing engineering judgment — and that is the

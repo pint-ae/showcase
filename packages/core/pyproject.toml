@@ -1,19 +1,19 @@
 [project]
 name = "pint-ae-toolkit"
-version = "0.4.0"
+version = "0.6.1"
 description = "PINT AE toolkit - parsing, validation, and diagnostics for UAE e-invoicing"
 requires-python = ">=3.11"
-license = "Apache-2.0"
+license = { text = "Business Source License 1.1" }
 license-files = ["LICENSE", "NOTICE"]
 readme = "README.md"
 classifiers = [
-    "License :: OSI Approved :: Apache Software License",
+    "License :: Other/Proprietary License",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Topic :: Office/Business :: Financial :: Accounting",
     "Intended Audience :: Financial and Insurance Industry",
 ]
-dependencies = ["lxml>=5.0", "pydantic>=2.5", "typer>=0.12", "rich>=13.0", "reportlab>=4.0", "arabic-reshaper>=3.0", "python-bidi>=0.4", "saxonche>=13.0"]
+dependencies = ["lxml>=5.0", "pydantic>=2.5", "typer>=0.12", "rich>=13.0", "reportlab>=4.0", "arabic-reshaper>=3.0", "python-bidi>=0.4", "saxonche>=13.0", "cryptography>=42"]
 
 [project.urls]
 Homepage = "https://github.com/pint-ae/showcase"

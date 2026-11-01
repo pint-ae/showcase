@@ -1,19 +1,19 @@
 {
   "files": [
     {
-      "bytes": 2034,
+      "bytes": 2928,
       "path": ".github/workflows/ci.yml",
-      "sha256": "0db35d9be8307a58635be6b5baede7f804efdce3a63c2e889f4a65ce1638f056"
+      "sha256": "c6d04d051516bbef67d3ba3193736109ac6bac959e6bfeb3c2dd25a3909e6e09"
     },
     {
-      "bytes": 10351,
+      "bytes": 1988,
       "path": "LICENSE",
-      "sha256": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549"
+      "sha256": "555f96d1fa65700a56a043adc8fe2824d132e9e4eb00657dc4261d4832272cb2"
     },
     {
-      "bytes": 2101,
+      "bytes": 3055,
       "path": "README.md",
-      "sha256": "ae4141413afe32334a97847f8fcc3f35b6e52b01bd5336645d580d31aee6cd16"
+      "sha256": "8374b04edc93e0c3cd2ebe957854651939a200048082d08d619dfb7bffd64984"
     },
     {
       "bytes": 3309,
@@ -58,7 +58,7 @@
     {
       "bytes": 4145,
       "path": "docs/learning/24_official_rulebook.md",
-      "sha256": "029648b966cc54112fa33d0da9fc8f6d840d1049c7058a0336cc04cfb5a4eec1"
+      "sha256": "3b84839ca48c814e252d2a99f78d297c151a004da3f19c39130ef90edcdb1fda"
     },
     {
       "bytes": 3687,
@@ -76,24 +76,24 @@
       "sha256": "dc867fd2bd6723fcd92022528dad7653cb52b4bac11fb3a90ac463c15f02829d"
     },
     {
-      "bytes": 10351,
+      "bytes": 1988,
       "path": "packages/core/LICENSE",
-      "sha256": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549"
+      "sha256": "555f96d1fa65700a56a043adc8fe2824d132e9e4eb00657dc4261d4832272cb2"
     },
     {
-      "bytes": 1900,
+      "bytes": 2088,
       "path": "packages/core/NOTICE",
-      "sha256": "3de0423661951323775e840e94a011eb3614e4161fb42726f91324ab10e1eb48"
+      "sha256": "dd02d3c68f4864a5e7c07299f4e9d40e31432364c19ea809cf5e1aa949f1de4b"
     },
     {
-      "bytes": 2141,
+      "bytes": 3872,
       "path": "packages/core/README.md",
-      "sha256": "80470036fda26020bd32cf05287a036c5ce080d23f15fa263a0e71a10c9545d6"
+      "sha256": "e6ac1c04977275f10ed3005e4998b05cd14a5c49f484498dfbf58e14b2206afa"
     },
     {
-      "bytes": 2190,
+      "bytes": 2224,
       "path": "packages/core/pyproject.toml",
-      "sha256": "b76c319a12ab6d311728855d6de5ef208f78c2acc69d45553ef61050386529e2"
+      "sha256": "824296ead414e85cbdc04422997cd49eaa1ba668e2d91e771a3c7c25c29a0169"
     },
     {
       "bytes": 2,
@@ -101,9 +101,9 @@
       "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
     },
     {
-      "bytes": 30777,
+      "bytes": 32972,
       "path": "packages/core/src/pint_ae/cli.py",
-      "sha256": "d8c31a4df8a67899498afaf6003c9f28fe3f1cb7822b30bf37a4c61a7ffce7fa"
+      "sha256": "600b6c45e31bd301c007df908f50d0e78c4518500c390913828b0dff776d5774"
     },
     {
       "bytes": 7610,
@@ -126,6 +126,11 @@
       "sha256": "5d461f0ec7f23fbc4f4bf74a6ef6afda2c88b0ac8041e8d5f31e300b76f21a99"
     },
     {
+      "bytes": 7412,
+      "path": "packages/core/src/pint_ae/licensing.py",
+      "sha256": "5f04b7e4672773604f0498518ece9d12383ad716d62bcb323133d2c738d0e875"
+    },
+    {
       "bytes": 16439,
       "path": "packages/core/src/pint_ae/modules.py",
       "sha256": "002d9767e93f02e074a1afd126264d29cca5d059cf88f600b36db26ec4018ab8"
@@ -138,7 +143,7 @@
     {
       "bytes": 14517,
       "path": "packages/core/src/pint_ae/pdf.py",
-      "sha256": "c207ee52bea3771998bd06233b18a2acac231876a3197d9c2f55f45633091942"
+      "sha256": "9362ef9f0c9a2cec50271e8a82140eacf196a84d0e7bb07dc2f9f4f658cfa29f"
     },
     {
       "bytes": 0,
@@ -151,9 +156,9 @@
       "sha256": "a779460724ab91fb9c84f2c2a6a4a501584e2390ab0f1b1d2c76121f39fa7dad"
     },
     {
-      "bytes": 9247,
+      "bytes": 9325,
       "path": "packages/core/src/pint_ae/results.py",
-      "sha256": "b93c1da9865447214b56db12320bc701a5fd0ce2a2b575ba8c2058568bc51f72"
+      "sha256": "384e8eaabfac826c09a8d2406e6f17013daf4fa7f4d778adee0da919fa6de13e"
     },
     {
       "bytes": 21808,

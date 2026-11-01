@@ -3,8 +3,10 @@ pint-ae toolkit
 
 Copyright (c) 2026 JaxFx
 
-This product is licensed under the Apache License, Version 2.0. The full licence
-text is in the `LICENSE` file in this directory.
+This product is licensed under the Business Source License 1.1: evaluation and other
+non-production use are permitted, production use requires a commercial licence. The
+parameters (Licensed Work, Additional Use Grant, Change Date, Change License) and the
+licence reference are in the `LICENSE` file in this directory.
 
 Third-party material redistributed unmodified in this package
 ------------------------------------------------------------
